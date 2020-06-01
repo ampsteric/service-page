@@ -75,6 +75,14 @@ h1 {
 }
 
 @media only screen and (max-width: 600px) {
+  * {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  body {
+    overflow-x: hidden;
+  }
   h1 {
     padding: 20px 800px;
     padding-left: 30px;
@@ -97,6 +105,7 @@ h1 {
     font-size: 15px;
     display: none;
   }
+
   button {
     padding: 10px 30px;
     background-color: rgb(238, 76, 17);
@@ -112,7 +121,8 @@ h1 {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
-    box-shadow: 10px 10px 10px 10px #bebbbb;
+    box-shadow: 1px 10px 50px #bebbbb;
+    width: 320px;
   }
   .svgimage img {
     height: 200px;
